@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo-List</title>
+ <link rel="stylesheet" href="ToDoList.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="fullItem">
+  <div class="upper">    
+    <h1> <i class="fa-solid fa-check"></i> ToDo-List</h1>
+  </div>
+
+  <div class="fulllower">
+    <div class="inputdiv">
+  <input id = "inputField"type="text" placeholder="New-ToDo">
+  <button id="addBtn" onclick="adItem()">Add Task</button>
+  </div>
+
+  <div class="filter">
+    <button id="all-filter" class="active" onclick="allFilter()">All</button>
+    <!--<button id="active-filter" onclick="activeFilter()">Active</button>-->
+    <button id="completed-filter" onclick="completedFilter()">Completed</button>
+  </div>
+  <ul id="list"></ul>
+
+  <div class="footer">
+    <p id="taskCount"><span id="taskcnt">0</span> tasks Remaining</p>
+  </div>
+  </div>
+  </div>
+</body>
+ <script src="ToDoList.js">  </script>
+</html>

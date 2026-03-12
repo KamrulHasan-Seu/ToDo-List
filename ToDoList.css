@@ -1,0 +1,116 @@
+body{
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#editButton{
+  background-color: #bebebe;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 35px;
+  font-size: 12px;
+  font-weight:600;
+}
+#deleteButton{
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0px;
+  font-size: 12px;
+  font-weight:600;
+}
+
+#editButton:hover{
+  background-color: #0F7096;
+  color: white;
+}
+
+#deleteButton:hover{
+  background-color: #c0392b;
+  color: white;
+}
+
+.upper i{
+  background-color:#0F7096;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.upper h1{
+  color: #0F7096;
+  margin-left: 10px;
+}
+.filter button{
+  padding: 2px 10px;
+  margin: 5px 0px ;
+border-radius: 10px;
+font-weight:600;
+}
+
+ .filter button:hover ,.all-filter.active{
+  background-color: #0F7096;
+  color: white;
+}
+
+ .active{
+  background-color: #0F7096;
+  color: white;
+}
+.footer{
+   margin-top: auto;     
+  text-align: center;
+  font-size: 90%;
+}
+.footer p{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 90%;
+}
+
+.fulllower {
+ border-radius: 10px;
+ background: #e0e0e0;
+ box-shadow: 20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+               padding : 20px 0px;
+               display: flex;
+               flex-direction: column;
+width: 100vh;
+height: 50vh;
+
+}
+
+.inputdiv input{
+  border: 1px solid #bebebe;
+}
+
+.inputdiv ,.filter{
+  margin-bottom: 5px;
+  border-bottom: 1px solid #bebebe;
+  text-align: center;
+}
+#addBtn{
+  background-color: #0F7096;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+#list li{
+  overflow-y: auto;
+  max-height: 100px;
+}
